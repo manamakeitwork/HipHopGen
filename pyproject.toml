@@ -1,0 +1,14 @@
+[project]
+name = "hiphopgen"
+version = "0.1.0"
+description = "Reconstructed HipHopGen preset generators"
+readme = "Readme.md"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["."]
